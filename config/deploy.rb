@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.10.2"
 
-set :application, "rollbar-app-1"
-set :repo_url, "git@example.com:me/my_repo.git"
+set :application, "rollbar-capistrano-app"
+set :repo_url, "git@github.com:ArturMoczulski/rollbar-capistrano-app.git"
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
